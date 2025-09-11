@@ -1,0 +1,35 @@
+.error404-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #384050;
+  font-family: system-ui, sans-serif;
+}
+
+.error404-title {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #cd2c2e;
+  margin: 0;
+}
+
+.error404-text {
+  font-size: 1.25rem;
+  color: #374151;
+}
+
+.error404-link {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #0074c7;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.error404-link:hover {
+  background: #00497c;
+}
