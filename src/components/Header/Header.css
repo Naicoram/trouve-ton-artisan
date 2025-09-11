@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+}
+
+ul li {
+    padding-right: 2rem;
+}
+
+ul li :hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex * {
+    align-self: center;
+    text-decoration: none;
+}
+
+.container {
+    justify-content: space-around;
+}
+
+#logo {
+    width: 30%;
+    height: 30%;
+}
+
+input {
+    height: fit-content;
+}

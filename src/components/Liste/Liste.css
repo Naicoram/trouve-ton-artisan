@@ -1,0 +1,67 @@
+.artisan-list {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.artisan-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.artisan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.artisan-card {
+  cursor: pointer;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.artisan-card:hover {
+  transform: translateY(-5px);
+}
+
+.artisan-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.artisan-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 10px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  margin: 0 2px;
+  background: #ddd;
+}
+
+.artisan-speciality {
+  font-size: 14px;
+  color: #333;
+  margin: 3px 0;
+}
+
+.artisan-location {
+  font-size: 13px;
+  color: #777;
+}
