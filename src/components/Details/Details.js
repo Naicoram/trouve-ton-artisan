@@ -45,12 +45,26 @@ function Details() {
             ></span>
           ))}
         </div>
+        <p>
+          <strong>Spécialité :</strong> {artisan.specialty}
+        </p>
+        <p>
+          <strong>Localisation :</strong> {artisan.location}
+        </p>
+        <p>
+          <strong>À propos :</strong> {artisan.about}
+        </p>
+        <p>
+          <a href={artisan.website} target="_blank" className="artisan-link">
+            {artisan.website}
+          </a>
+        </p>
       </div>
 
       {/* Partie droite : formulaire de contact */}
       <div className="contact-form">
         <h3>Contactez {artisan.name}</h3>
-        <form className='contact-content'>
+        <form className="contact-content">
           <div>
             <label htmlFor="name">Nom</label>
             <input type="text" id="name" name="name" required />

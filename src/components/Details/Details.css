@@ -35,6 +35,14 @@
                      50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 }
 
+.artisan-link {
+  color: inherit;
+  text-decoration: none;
+}
+.artisan-link:hover {
+  text-decoration: underline;
+}
+
 /* Partie droite */
 .contact-form {
   flex: 1;
